@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		B438A7502A15372B00AF4B71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438A74F2A15372B00AF4B71 /* AppDelegate.swift */; };
 		B438A7522A15372B00AF4B71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438A7512A15372B00AF4B71 /* SceneDelegate.swift */; };
-		B438A7542A15372B00AF4B71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438A7532A15372B00AF4B71 /* ViewController.swift */; };
+		B438A7542A15372B00AF4B71 /* LViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438A7532A15372B00AF4B71 /* LViewController.swift */; };
 		B438A7572A15372B00AF4B71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B438A7552A15372B00AF4B71 /* Main.storyboard */; };
 		B438A7592A15372E00AF4B71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B438A7582A15372E00AF4B71 /* Assets.xcassets */; };
 		B438A75C2A15372E00AF4B71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B438A75A2A15372E00AF4B71 /* LaunchScreen.storyboard */; };
+		B438A7642A15443F00AF4B71 /* DrawLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438A7632A15443F00AF4B71 /* DrawLayer.swift */; };
+		B438A7662A15458400AF4B71 /* TViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438A7652A15458400AF4B71 /* TViewController.swift */; };
+		B438A7682A15470600AF4B71 /* ZViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438A7672A15470600AF4B71 /* ZViewController.swift */; };
+		B438A76A2A1547C400AF4B71 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438A7692A1547C300AF4B71 /* MenuViewController.swift */; };
+		B438A76C2A15484800AF4B71 /* OViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438A76B2A15484800AF4B71 /* OViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B438A74C2A15372B00AF4B71 /* TetrisElementsDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TetrisElementsDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B438A74F2A15372B00AF4B71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B438A7512A15372B00AF4B71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B438A7532A15372B00AF4B71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B438A7532A15372B00AF4B71 /* LViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LViewController.swift; sourceTree = "<group>"; };
 		B438A7562A15372B00AF4B71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B438A7582A15372E00AF4B71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B438A75B2A15372E00AF4B71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B438A75D2A15372E00AF4B71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B438A7632A15443F00AF4B71 /* DrawLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawLayer.swift; sourceTree = "<group>"; };
+		B438A7652A15458400AF4B71 /* TViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TViewController.swift; sourceTree = "<group>"; };
+		B438A7672A15470600AF4B71 /* ZViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZViewController.swift; sourceTree = "<group>"; };
+		B438A7692A1547C300AF4B71 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		B438A76B2A15484800AF4B71 /* OViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,28 @@
 		B438A74E2A15372B00AF4B71 /* TetrisElementsDesign */ = {
 			isa = PBXGroup;
 			children = (
+				B438A7692A1547C300AF4B71 /* MenuViewController.swift */,
 				B438A74F2A15372B00AF4B71 /* AppDelegate.swift */,
 				B438A7512A15372B00AF4B71 /* SceneDelegate.swift */,
-				B438A7532A15372B00AF4B71 /* ViewController.swift */,
+				B438A76D2A1548D100AF4B71 /* Controllers */,
+				B438A7632A15443F00AF4B71 /* DrawLayer.swift */,
 				B438A7552A15372B00AF4B71 /* Main.storyboard */,
 				B438A7582A15372E00AF4B71 /* Assets.xcassets */,
 				B438A75A2A15372E00AF4B71 /* LaunchScreen.storyboard */,
 				B438A75D2A15372E00AF4B71 /* Info.plist */,
 			);
 			path = TetrisElementsDesign;
+			sourceTree = "<group>";
+		};
+		B438A76D2A1548D100AF4B71 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B438A7532A15372B00AF4B71 /* LViewController.swift */,
+				B438A7652A15458400AF4B71 /* TViewController.swift */,
+				B438A7672A15470600AF4B71 /* ZViewController.swift */,
+				B438A76B2A15484800AF4B71 /* OViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B438A7542A15372B00AF4B71 /* ViewController.swift in Sources */,
+				B438A7662A15458400AF4B71 /* TViewController.swift in Sources */,
+				B438A7682A15470600AF4B71 /* ZViewController.swift in Sources */,
+				B438A7542A15372B00AF4B71 /* LViewController.swift in Sources */,
+				B438A76A2A1547C400AF4B71 /* MenuViewController.swift in Sources */,
+				B438A7642A15443F00AF4B71 /* DrawLayer.swift in Sources */,
 				B438A7502A15372B00AF4B71 /* AppDelegate.swift in Sources */,
+				B438A76C2A15484800AF4B71 /* OViewController.swift in Sources */,
 				B438A7522A15372B00AF4B71 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
